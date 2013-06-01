@@ -70,5 +70,6 @@ public:
     void addEdge(int lt1, int lt2); 
     int size();
     int maxStrlen();
+    ~Graph();
 };
 #endif

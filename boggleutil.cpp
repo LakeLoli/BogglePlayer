@@ -29,6 +29,14 @@ int Graph::maxStrlen(){
     return maxlength;
 }
 
+Graph::~Graph(){
+    for (vmap::iterator itr=work.begin(); itr!=work.end(); itr++) 
+    {
+        delete (*itr).second;
+        (*itr).second=nullptr;
+    }
+}
+
 // Ternary Search Tree implementation
 TST::~TST(){
     makeEmpty();

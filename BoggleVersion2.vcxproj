@@ -68,6 +68,8 @@
     <ClCompile Include="boggleplayer.cpp" />
     <ClCompile Include="boggleutil.cpp" />
     <ClCompile Include="bogtest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainwindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="baseboggleplayer.h" />
